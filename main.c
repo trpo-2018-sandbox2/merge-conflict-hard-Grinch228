@@ -26,11 +26,11 @@ void print_array(int *arr, int size)
 
 int main()
 {
-    int arr[] = {3, 1, 4, 1, 5, 9, 2};
+    int arr[] = {3, 1, 4, 1, 5, 9, 2, 8};
 
-    const int min = min_element(arr, 7);
+    const int min = min_element(arr, 8);
 
-    print_array(arr, 7);
+    print_array(arr, 8);
     printf("Min element: %d\n", min);
 
     return 0;
